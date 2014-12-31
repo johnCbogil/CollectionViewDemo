@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523AA46A1A544B270083C539 /* FlickrCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 523AA4691A544B270083C539 /* FlickrCollectionViewCell.m */; };
 		527D981F1A53708F00FBBEC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 527D981E1A53708F00FBBEC4 /* main.m */; };
 		527D98221A53708F00FBBEC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 527D98211A53708F00FBBEC4 /* AppDelegate.m */; };
 		527D98251A53708F00FBBEC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527D98241A53708F00FBBEC4 /* ViewController.m */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		523AA4681A544B270083C539 /* FlickrCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrCollectionViewCell.h; sourceTree = "<group>"; };
+		523AA4691A544B270083C539 /* FlickrCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrCollectionViewCell.m; sourceTree = "<group>"; };
 		527D98191A53708F00FBBEC4 /* FlickrSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527D981D1A53708F00FBBEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		527D981E1A53708F00FBBEC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 			children = (
 				527D98231A53708F00FBBEC4 /* ViewController.h */,
 				527D98241A53708F00FBBEC4 /* ViewController.m */,
+				523AA4681A544B270083C539 /* FlickrCollectionViewCell.h */,
+				523AA4691A544B270083C539 /* FlickrCollectionViewCell.m */,
 				527D98261A53708F00FBBEC4 /* Main.storyboard */,
 				527D98291A53708F00FBBEC4 /* Images.xcassets */,
 				527D982B1A53708F00FBBEC4 /* LaunchScreen.xib */,
@@ -328,6 +333,7 @@
 				527D98251A53708F00FBBEC4 /* ViewController.m in Sources */,
 				527D98221A53708F00FBBEC4 /* AppDelegate.m in Sources */,
 				527D98701A537A6400FBBEC4 /* Flickr.m in Sources */,
+				523AA46A1A544B270083C539 /* FlickrCollectionViewCell.m in Sources */,
 				527D98711A537A6400FBBEC4 /* FlickrPhoto.m in Sources */,
 				527D981F1A53708F00FBBEC4 /* main.m in Sources */,
 			);
@@ -522,6 +528,7 @@
 				527D983E1A53708F00FBBEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527D983F1A53708F00FBBEC4 /* Build configuration list for PBXNativeTarget "FlickrSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +537,7 @@
 				527D98411A53708F00FBBEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

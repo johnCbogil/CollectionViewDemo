@@ -9,12 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "Flickr.h"
 #import "FlickrPhoto.h"
+#import "FlickrCollectionViewCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
+
+// UI objects
 @property(nonatomic, strong) IBOutlet UIToolbar *toolbar;
 @property(nonatomic, weak) IBOutlet UIBarButtonItem *shareButton;
 @property(nonatomic, strong) IBOutlet UITextField *textField;
+@property(nonatomic, strong) IBOutlet UICollectionView *collectionView;
+
 
 // Flickr properties
 @property (nonatomic, strong) NSMutableDictionary *searchResults;
